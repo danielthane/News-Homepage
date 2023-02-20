@@ -1,0 +1,150 @@
+/* Colour Guide
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+- Off-white: hsl(36, 100%, 99%)
+- Grayish blue: hsl(233, 8%, 79%)
+- Dark grayish blue: hsl(236, 13%, 42%)
+- Very dark blue: hsl(240, 100%, 5%)
+*/
+
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(36, 100%, 99%);
+  font-family: "Inter", sans-serif;
+  padding: 0rem 1rem;
+}
+
+h1 {
+  color: hsl(240, 100%, 5%);
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 0.9;
+}
+
+p {
+  color: hsl(236, 13%, 42%);
+  font-size: 0.94rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+/* Main Article */
+.headline-article img {
+  padding: 1rem 0rem;
+  width: 100%;
+}
+
+.read-more-link,
+.read-more-link:visited {
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  display: block;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 1rem 0rem 4rem 0rem;
+  padding: 0.8rem 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.read-more-link:hover,
+.read-more-link:active {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+/* New Section */
+.new-section {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.new-section-title {
+  color: hsl(35, 77%, 62%);
+  font-size: 2rem;
+}
+
+.new-heading {
+  margin-top: 1rem;
+}
+
+.new-heading-link,
+.new-heading-link:visited {
+  color: hsl(36, 100%, 99%);
+  text-decoration: none;
+  font-weight: 800;
+}
+.new-heading-link:hover,
+.new-heading-link:active {
+  color: hsl(35, 77%, 62%);
+}
+
+.new-copy {
+  color: hsl(233, 8%, 79%);
+}
+
+/* Popular Section */
+.popular {
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.popular-acticle {
+  display: flex;
+  align-items: top;
+  gap: 1rem;
+}
+
+.popular-acticle img {
+  width: 30%;
+  height: 30%;
+}
+
+.popular-rank {
+  color: hsl(233, 8%, 79%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.popular-heading {
+  font-weight: 800;
+  margin-top: 0.8rem;
+}
+
+.popular-link,
+.popular-link:visited {
+  color: hsl(240, 100%, 5%);
+  text-decoration: none;
+  font-weight: 800;
+}
+.popular-link:hover,
+.popular-link:active {
+  color: hsl(5, 85%, 63%);
+}
+
+/* Attribution Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
