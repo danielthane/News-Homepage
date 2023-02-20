@@ -258,7 +258,7 @@ p {
   /* Layout Stuff */
   .page-layout {
     display: grid;
-    grid-template-columns: 68% 30%;
+    grid-template-columns: 2fr 1fr;
     column-gap: 2rem;
   }
 
@@ -294,6 +294,19 @@ p {
   }
 
   /* Font Sizing */
+  h1 {
+    font-size: 4rem;
+  }
+  .new-section-title {
+    font-size: 2rem;
+  }
+
+  .new-heading {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   h1 {
     font-size: 4rem;
   }
